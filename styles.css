@@ -55,27 +55,32 @@ body {
     cursor: pointer;
 }
 
+.ac-button {
+    background-color: #9f9f9f;
+}
+
 .pad-button:active,
 .pad-button:hover {
     color: #FFFFFF;
-    background-color: #242729;
+    background-color: #585858;
     cursor: pointer;
     transition: all .25s;
     transition-timing-function: ease-in;
 }
 
 .pad-button-color {
-    border-radius: 100px;
+    border-radius: 10px;
     font-size: 40px;
     color: #e6e6e6;
-    background-color: #3cb371;
+    background-color: #f59906;
     cursor: pointer;
 }
 
 .pad-button-color:active,
 .pad-button-color:hover {
     color: #FFFFFF;
-    background-color: #20603d;
+    background-color: #ffffff;
+    color: #f59906;
     transition: all .25s;
     transition-timing-function: ease-in;
 }
